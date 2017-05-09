@@ -4,6 +4,8 @@ keystone:
   token_expiration_in_seconds: 86400
   admin_workers: 5
   public_workers: 5
+  uwsgi:
+    buffer_size: 114688
   source:
     rev: 'stable/mitaka'
     constrain: True
